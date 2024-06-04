@@ -1,0 +1,181 @@
+@media screen and (max-width: 991px) {
+   .main_menu .navbar .main-menu-item .navbar-nav a {
+      padding: 10px 22px;
+      color: #fff;
+      background-color: #bd9c50;
+      margin-bottom: 2px;
+  }
+  .navbar-collapse {
+      z-index: 9999 !important;
+      position: absolute;
+      left: 0;
+      top: 71px;
+      width: 100%;
+  } 
+  .banner_part {
+     margin-bottom:100px;
+  } 
+  .banner_part:after{
+        display:none;
+  }
+  .banner_part .video_popup {
+       top: 170px;
+       z-index: -99!important;
+  }
+  .banner_part .banner_text {
+      text-align: center;
+      margin-top:270px;
+  }
+  .banner_part .banner_text .banner_text_iner {
+      display: table-cell;
+      vertical-align: middle;
+      height: 40vh;
+      overflow: visible;
+  }
+   .team_part {
+      margin-bottom:160px;
+  }
+  .team_part .team_member_text h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    line-height: 40px;
+  }
+
+  
+ .team_part::before {
+      display: none;
+ }
+    
+  .team_part .team_member_text {
+      padding: 0px 0px 0px !important;
+      
+  }
+  .team_part img {
+      display: none;
+  }
+  .passion_part {
+   
+    margin-top:0px;
+  }
+ 
+  .review_part::before {
+    display:none;
+  }
+  .blog_part::before{
+    display: none;
+  }
+  .blog_part::after{
+    display: none;
+  }
+} 
+@media  screen and  (max-width: 768px) {
+  .room_1 {
+    margin-top: 0px;
+    margin-bottom: 225px;
+  }
+ 
+ .room_1 .room_text_1 {
+    width: 100%;
+    top: auto;
+    right: 0px;
+    padding:20px;
+  }
+  .room_2 .room_text_2 {
+    width: 100%;
+    bottom: auto;
+    left: 0px;
+    padding: 20px;
+    z-index: 99;
+    position: relative;
+  }
+  .blog_part .single_blog .single_appartment_content {
+    padding: 20px;
+  }
+  .blog_part .right_single_blog .single_blog {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+}
+@media  screen and  (min-width: 768px){
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .room_1 .room_text_1  {
+    width: 300px;
+    z-index: 9;
+    top: -100px;
+    right: 30px;
+  }
+  .room_2 .room_text_2 {
+    width: 300px;
+    z-index: 9;
+    bottom: -100px;
+    right: 30px;
+  }
+  /* .blog_part .right_single_blog .single_blog img {
+    max-width: 120px;
+  } */
+  /* .right_single_blog .media-body{
+    max-width: 120px;
+  } */
+ .right_single_blog .single_blog .media-body h5 {
+    font-size: 15px;
+    font-weight: 600;
+  } 
+}
+
+
+ @media screen and (max-width: 1368px) {
+  .banner_part .banner_text {
+  margin-left: 0px;
+  } 
+} 
+
+@media (min-width:1199px) {
+  .navbar-expand-lg {
+    flex-flow: row nowrap !important;
+    justify-content: flex-start;
+  }
+} 
+  
+@media (max-width: 1368px) {
+  .banner_social_icon{
+    display: none !important;
+  }
+}
+@media (min-width: 992px) {
+ 
+  .offset-lg-1 {
+    margin-left: 8.333333%;
+  }
+}
+@media only screen and (min-width: 992px){
+  .team_part .team_member_text {
+    padding: 169px 0px 65px;
+  }
+  /* .blog_part::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    width: 150px;
+    height: 250px;
+    
+  } */
+}
+@media only screen and (min-width: 1400px)  {
+  .passion-contant{
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+}
+ @media only screen and (min-width: 385px) and (max-width: 767px) {
+ .single_apartment_part img{
+  width:100%;
+ }
+}  
